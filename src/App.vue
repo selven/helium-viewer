@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style>
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(25, 28, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 28, 32, 1) 0%,
+    rgba(108, 38, 94, 1) 100%
+  );
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
